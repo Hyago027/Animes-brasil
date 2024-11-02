@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes Brasil - Site Pessoal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url('https://via.placeholder.com/1600x900?text=Background+de+Anime'); /* Substitua pelo link da imagem de fundo desejada */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8); /* Fundo preto semi-transparente */
+            border-radius: 8px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #b22222; /* Vermelho escuro */
+            color: #fff;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        .section {
+            margin: 40px 0;
+        }
+
+        .section h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #b22222; /* Vermelho escuro */
+        }
+
+        .anime-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .anime-item {
+            flex: 1 1 calc(50% - 20px);
+            background-color: #333;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .anime-item img {
+            width: 100%;
+            border-radius: 8px;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .anime-item h3 {
+            font-size: 1.5em;
+            margin-top: 10px;
+            color: #f0f0f0;
+        }
+
+        .anime-item p {
+            font-size: 1em;
+            color: #d3d3d3;
+            margin-top: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #f0f0f0;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+
+        .social-links a {
+            color: #b22222; /* Vermelho escuro */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .social-links a:hover {
+            color: #f44336; /* Vermelho claro */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Animes Brasil</h1>
+        <p>Bem-vindo ao seu guia de animes! Explore recomendações e descubra novos animes para assistir.</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>Recomendações de Anime</h2>
+            <div class="anime-list">
+                <div class="anime-item">
+                    <img src="https://via.placeholder.com/400x200?text=Black+Clover" alt="Black Clover">
+                    <h3>Black Clover</h3>
+                    <p>A história de Asta, um garoto sem poderes mágicos em um mundo onde todos têm magia, determinado a se tornar o Rei dos Magos.</p>
+                </div>
+                <div class="anime-item">
+                    <img src="https://via.placeholder.com/400x200?text=Dragon+Ball+Z" alt="Dragon Ball Z">
+                    <h3>Dragon Ball Z</h3>
+                    <p>As aventuras de Goku e seus amigos em batalhas épicas para proteger a Terra de ameaças poderosas.</p>
+                </div>
+                <div class="anime-item">
+                    <img src="https://via.placeholder.com/400x200?text=One+Piece" alt="One Piece">
+                    <h3>One Piece</h3>
+                    <p>A jornada de Monkey D. Luffy em busca do lendário tesouro "One Piece" para se tornar o Rei dos Piratas.</p>
+                </div>
+                <div class="anime-item">
+                    <img src="https://via.placeholder.com/400x200?text=Naruto" alt="Naruto">
+                    <h3>Naruto</h3>
+                    <p>Um jovem ninja determinado a se tornar Hokage e ganhar o respeito de sua vila, enfrentando desafios e formando laços de amizade.</p>
+                </div>
+                <div class="anime-item">
+                    <img src="https://via.placeholder.com/400x200?text=Hunter+x+Hunter" alt="Hunter x Hunter">
+                    <h3>Hunter x Hunter</h3>
+                    <p>A história de Gon Freecss, um garoto que se torna um caçador para encontrar seu pai, um renomado caçador.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Siga-nos nas redes sociais para mais novidades de anime:</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/animes.brazzuca/profilecard/?igsh=MXFyZWdhZjRqYXp3Mw==" target="_blank">Instagram</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
